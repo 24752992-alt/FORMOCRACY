@@ -1,6 +1,6 @@
-# FORMOCRACY
+# FORMOCRACY：表面政治
 
-> 表单即权力，眼镜即舞台。
+> 游戏之内，眼镜之上，表单即权力。
 
 **FORMOCRACY** 是一个为空间计算硬件（Rokid AR 智能眼镜）原生设计的严肃叙事游戏 —— AdventureX 2026 参赛项目。
 
