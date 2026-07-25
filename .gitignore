@@ -1,6 +1,7 @@
 # 白名单模式：默认忽略根目录全部内容，只纳入三个应用目录
 /*
 !/.gitignore
+!/README.md
 !/game-app/
 !/glass-bridge-android/
 !/glass-bridge-delivery/
