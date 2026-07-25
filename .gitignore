@@ -1,0 +1,17 @@
+# 白名单模式：默认忽略根目录全部内容，只纳入三个应用目录
+/*
+!/.gitignore
+!/game-app/
+!/glass-bridge-android/
+!/glass-bridge-delivery/
+
+# macOS
+.DS_Store
+
+# glass-bridge-android（Android 构建产物与本地配置，密钥在 local.properties 中，绝不入库）
+glass-bridge-android/.gradle/
+glass-bridge-android/.idea/
+glass-bridge-android/build/
+glass-bridge-android/app/build/
+glass-bridge-android/local.properties
+glass-bridge-android/_preview_*.png

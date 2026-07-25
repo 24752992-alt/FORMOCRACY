@@ -1,0 +1,33 @@
+#container {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* 深色底，避免加载时白屏闪烁 */
+body {
+  background-color: #020617;
+}
+
+/* 主内容区底部留白：为固定底部导航栏 + 底部安全区腾出空间 */
+.app-scroll {
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 88px);
+}
+
+/* 首页启动页：无底部导航，仅叠加底部安全区留白 */
+.home-scroll {
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 28px);
+}
+
+/* 底部导航栏叠加底部安全区 */
+.tab-bar {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* AI 秘书对话：固定占满顶部安全区到底部导航栏之间的区域（导航栏高 h-16=64px） */
+.chat-shell {
+  position: fixed;
+  inset-inline: 0;
+  top: env(safe-area-inset-top, 0px);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 64px);
+  display: flex;
+  flex-direction: column;
+}
